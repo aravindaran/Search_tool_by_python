@@ -16,9 +16,9 @@ def search_files(path):
 				temp_file = search_files(temp_path)
 	return files
 
-file_list = search_files(path)
+file_path_list = search_files(path)
 
-print file_list
+print file_path_list
 
 
 
