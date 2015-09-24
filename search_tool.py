@@ -2,7 +2,7 @@ import os
 from os.path import isfile, join,isdir
 
 files = []
-path = '/home/renjith/ann/djswap/'
+path = '/home/aravind/djswap/'
 
 def search_files(path):
 	if isdir(path):
